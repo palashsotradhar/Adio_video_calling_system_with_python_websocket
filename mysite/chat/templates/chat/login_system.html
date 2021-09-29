@@ -1,0 +1,23 @@
+
+<html lang="en" dir="ltr">
+  <head>
+
+    <meta charset="utf-8">
+    <title>login system</title>
+
+  </head>
+  <body>
+
+
+    <form class="box" method="post" action="">
+     <!-- key: 421523eof56 -->
+      <h1>Login</h1>
+      {% csrf_token %}
+      <input type="text" name="username" value="" placeholder="username">
+      <input type="password" name="password" value=""placeholder="password">
+      <button type="submit">Log In</button>
+    </form>
+    <button type="submit"><a href="http://127.0.0.1:8000/home/registration">for sign up</a></button>
+
+  </body>
+</html>
